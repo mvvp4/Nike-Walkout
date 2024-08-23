@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'MYRIADPRO-LIGHT';
+    src: url(resources/fonts/MyriadPro-Light.otf) format('opentype');
+}
+.isologist {
+    color: rgb(255, 255, 255);
+    font-size: 10vh;
+    .wk {
+        color: rgb(0, 0, 6);
+    }
+}
+.navbar {
+    background-image: linear-gradient(to bottom left, rgb(39, 97, 122),rgb(0, 58, 79));
+    display: inline-flex;
+    font-family: 'MYRIADPRO-LIGHT';
+    font-weight: 900;
+    font-style: italic;
+    align-items: center;
+    height: 100%;
+}
+.navbar-brand {
+    display: inline-flex;
+    align-items: center;
+}
+#button-area {
+    display: inline-flex;
+    align-items: center;
+}
+.navbar #running {
+    margin: 2vh;
+    width: 10vh;
+    height: 8vh;
+}
+.navbar #cart,#user {
+    width: 50px;
+}
+#button-area button{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 25%;
+    border-color: black;
+    padding: 2vh;
+    margin: 0 1vh;
+    display: inline-flex;
+    box-shadow: -1px 10px 10px rgba(0, 0, 0, 0.3) inset;
+}
+#button-area button:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3),inset -3px 10px 15px rgba(0, 0, 0, 0.3);
+    cursor:pointer;
+}
+#carouselExampleAutoplaying {
+    height: 60vh;
+}
+.carousel-item img {
+    width: 25vh;
+    height: 60vh;
+    object-position:55% 55%;
+    vertical-align: 5vh;
+    object-fit:none;
+}
