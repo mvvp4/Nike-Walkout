@@ -1,3 +1,3 @@
 function Login(){
-    window.location.href = "/user_management/login/user_login.html"
+    window.location.href = "Nike-Walkout/user_management/login/user_login.html"
 }
